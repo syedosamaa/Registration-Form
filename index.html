@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+
+    <main>
+        <section class="registration-section">
+
+            <article class="registration-form">
+
+                <i class="fa-solid fa-xmark"></i>
+
+                <!-- Form Heading -->
+                <header>
+                    <h1>
+                        <span>▪</span>
+                        Registration Form
+                        <span>▪</span>
+                    </h1>
+                </header>
+
+                <!-- Registration Form -->
+                <form action="#">
+
+                    <!-- Name -->
+                    <fieldset>
+
+                        <input type="text" id="name" name="name" autocomplete="name" required placeholder="Name">
+                    </fieldset>
+
+
+                    <!-- Email -->
+                    <fieldset>
+
+
+                        <input type="email" id="email" name="email" autocomplete="email" required
+                            placeholder="Email Adress">
+                    </fieldset>
+
+
+                    <!-- Country -->
+
+                    <fieldset>
+
+                        <input type="text" id="country" name="country" autocomplete="country" required
+                            placeholder="Country">
+                    </fieldset>
+
+                    <!-- Phone -->
+                    <fieldset>
+
+
+                        <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="Phone">
+                    </fieldset>
+
+
+                    <!-- Password -->
+                    <fieldset>
+
+
+                        <input type="password" id="password" name="password" autocomplete="new-password" required
+                            placeholder="Password">
+
+                    </fieldset>
+
+
+                    <!-- Terms / Checkbox -->
+                    <fieldset class="terms">
+                        <label for="term">
+                            <input type="checkbox" id="terms" name="terms">
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt erat sand sucesd
+                            </p>
+                        </label>
+                    </fieldset>
+
+
+                    <!-- Submit -->
+                    <button type="submit" class="submit-btn">
+                        CREATE ACCOUNT
+                    </button>
+
+                </form>
+
+
+                <!-- Sign In -->
+                <footer>
+                    <p>
+                        Already have an account?
+                        <a href="#">Sign in</a>
+                    </p>
+                </footer>
+
+            </article>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
